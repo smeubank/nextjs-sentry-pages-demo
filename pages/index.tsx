@@ -120,6 +120,22 @@ export default function Home() {
               </a>
             </code>
           </p>
+          <p className={inter.className}>
+            API Edge.{' '}
+            <code className={styles.code}>
+              <a className={styles.link} href="/api/edge-function-example" target="_blank">
+                Edge API Test
+              </a>
+            </code>
+          </p>
+          <p className={inter.className}>
+            API error in Edge.{' '}
+            <code className={styles.code}>
+              <a className={styles.link} href="/api/edge-function-example-error" target="_blank">
+                Edge API Test
+              </a>
+            </code>
+          </p>
         </div>
         <div className={styles.card}>
           <h2 className={inter.className}>
